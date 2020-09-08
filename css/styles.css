@@ -1,17 +1,25 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: center;
+    align-items: center;
+}
+
 :root {
     --gridColumns: repeat(16, auto);
     --colorDefaultGrid: white;
 }
 
 #grid-container {
+    width: 50vw;
     display: grid;
     grid-template-columns: var(--gridColumns);
+    height: 50vh;
 }
 
 .grid-square {
     background-color: var(--colorDefaultGrid);
     border:1px solid blue;
-    height: 20px;
 }
 
 .modal_reset {

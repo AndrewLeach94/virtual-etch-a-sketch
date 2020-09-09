@@ -2,6 +2,9 @@
 ## User Story
 As a user, I want the ability to create a custom grid to draw on as I see fit.
 
+### Start Sketching
+https://andrewleach94.github.io/virtual-etch-a-sketch/
+
 #### Overview
 Hovering over the grid squares will change its color, allowing the user to draw whatever they seem fit. The grid dimensions are customizable as well.
 

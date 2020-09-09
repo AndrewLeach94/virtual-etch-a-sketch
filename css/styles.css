@@ -1,13 +1,57 @@
+html {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
 body {
     display: flex;
     flex-flow: column nowrap;
-    justify-items: center;
     align-items: center;
+    background-color: #FDEDD06B;
 }
 
 :root {
     --gridColumns: repeat(16, auto);
-    --colorDefaultGrid: white;
+    --colorDefaultGrid: #FDEDD0;
+    --colorDefaultGridHover: #ED6A5A;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    margin-bottom: 0;
+}
+
+h6 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.fab {
+    margin-right: 5px;
+    color: #2D1E2F;
+}
+
+main {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    box-shadow: 2px 2px 8px 2px #0000001a;
+}
+
+aside {
+    background-color: white;
+    padding: 0px 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 #grid-container {
@@ -19,10 +63,48 @@ body {
 
 .grid-square {
     background-color: var(--colorDefaultGrid);
-    border:1px solid blue;
+    border: 0.5px solid #8080801f;
 }
 
 .modal_reset {
-    border: 2px solid black;
     padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+.modal_reset label {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 20px 0px;
+}
+
+.modal_reset h4 {
+    font-size: 1.3rem;
+    font-family: 'Architects Daughter', cursive;
+}
+
+button {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    padding: 5px;
+    margin: 5px 0px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ED6A5A;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 2px 2px #0000001a;
+}
+
+button:hover {
+    transition: 0.2s;
+    background-color: #FF6C5B;
+}
+
+#button_reset {
+    background-color: #FFA69B;
 }

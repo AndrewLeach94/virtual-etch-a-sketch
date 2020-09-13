@@ -12,15 +12,45 @@
 <body>
     <header>
         <h1>Virtual Etch a Sketch</h1>
-        <h6><a href=https://github.com/AndrewLeach94 <i class="fab fa-github"></i></a>Created by Andrew Leach</h6>
+        <h6><a href=https://github.com/AndrewLeach94 <i class="fab fa-github"></i></a>Designed by Andrew Leach</h6>
     </header>
     <main>
         <aside id="sidebar">
+            <div id="theme-container">
+                <label class="theme-button"><p>Default</p>
+                    <img src="images/default.png" alt="default theme">
+                    <input type="radio" id="theme_default" name="theme" value="default" autocomplete="off" checked>
+                    <div class= "theme-BG"></div>
+                </label>
+                <label class="theme-button"><p>Kraken</p>
+                    <img src="images/kraken.png" alt="kraken theme">
+                    <input type="radio" id="theme_kraken" name="theme" value="kraken" autocomplete="off">
+                    <div class= "theme-BG"></div>
+                </label>
+                <label class="theme-button"><p>Space</p>
+                    <img src="images/space.png" alt="space theme">
+                    <input type="radio" id="theme_space" name="theme" value="space" autocomplete="off">
+                    <div class= "theme-BG"></div>
+                </label>
+                <label class="theme-button"><p>Pirate</p>
+                    <img src="images/pirate.png" alt="pirate theme">
+                    <input type="radio" id="theme_pirate" name="theme" value="pirate" autocomplete="off">
+                    <div class= "theme-BG"></div>
+                </label>
+                <label class="theme-button"><p>Wireframe</p>
+                    <img src="images/wireframe.png" alt="wireframe theme">
+                    <input type="radio" id="theme_wireframe" name="theme" value="wireframe" autocomplete="off">
+                    <div class= "theme-BG"></div>
+                </label>
+                <label class="theme-button"><p>Skittles</p>
+                    <img src="images/skittles.png" alt="skittles theme">
+                    <input type="radio" id="theme_skittles" name="theme" value="skittles" autocomplete="off">
+                    <div class= "theme-BG"></div>
+                </label>    
+            </div>
         </aside>
         <div id="grid-container"></div>    
     </main>
-    <footer>
-    </footer>
     <script src="js/scripts.js"></script>
 </body>
 </html>

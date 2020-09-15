@@ -4,7 +4,7 @@ const container = document.querySelector("#grid-container");
 // Test for mobile device
 var clickEvent = function() {
     if ('ontouchstart' in document.documentElement === true) {
-        return "touchmove";
+        return "touchstart";
     }
 
     else {

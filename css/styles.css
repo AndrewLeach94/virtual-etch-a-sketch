@@ -263,11 +263,6 @@ button:hover {
         row-gap: 10px;
     }
 
-    #grid-container {
-        /* max-height: 60vh;
-        max-width: 60vw; */
-    }
-
     aside {
         display: flex;
         flex-direction: row;
